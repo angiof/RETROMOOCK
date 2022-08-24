@@ -53,6 +53,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/retromoock/views/Adapter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/example/retromoock/views/MainActivity.kt">
           <value>
             <set />
@@ -63,12 +68,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/retromoock/views/models/ViewModelLista.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/example/retromoock/views/network/ClientRetro.kt">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/example/retromoock/views/network/ResponsesFrasi.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/retromoock/views/network/client2/ClientRetro.kt">
           <value>
             <set />
           </value>
@@ -89,6 +104,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/lista_frasi.xml">
           <value>
             <set />
           </value>
@@ -133,12 +153,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/Documents/proget x/Games/app/src/main/java/com/example/games/views/progetto/frags/FragListaGamesHoster.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Documents/proget x/Games/app/src/main/java/com/example/games/views/progetto/viewmodles/ViewModelGames.kt">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$USER_HOME$/Documents/proget x/Games/app/src/main/java/com/example/games/views/progetto/viste/MainHoster.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/proget x/Passy/app/src/main/java/passy/prog/views/adapter/MyAdapter.kt">
           <value>
             <set />
           </value>
