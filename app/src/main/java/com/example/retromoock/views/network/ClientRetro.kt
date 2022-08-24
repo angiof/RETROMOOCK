@@ -24,7 +24,6 @@ class ClientRetro {
             .baseUrl(BASE_URL)
             .client(httPclientBuilder!!.build())
             .addConverterFactory(GsonConverterFactory.create()) //
-            // .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
             .build()
     }
 
