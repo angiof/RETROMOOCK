@@ -29,14 +29,16 @@ class AdapterFrasi :
     override fun onBindViewHolder(holder: FrasiViewHolder, position: Int) {
         val entityConfig = getItem(position)
 
-        holder.listaBing.textLista.text = entityConfig.frasi
-        Comp.getImg(holder.listaBing.imgList, entityConfig.img ?: "")
+        holder.listaBing.txDif.text = entityConfig.difficolta
+        holder.listaBing.txTitolo.text = entityConfig.titolo_ricetta
+        holder.listaBing.txTemp.text = entityConfig.tempo
+        Comp.getImg(holder.listaBing.imgList, entityConfig.im_url ?: "")
 
         holder.listaBing.cardviewLista.setOnClickListener {
             val intent = Intent(it.context, MainActivity2::class.java)
-            intent.putExtra("d", entityConfig.des)
-            intent.putExtra("i", entityConfig.img)
-            it.context.startActivity(intent)
+            //intent.putExtra("d", entityConfig.des)
+            //intent.putExtra("i", entityConfig.img)
+           // it.context.startActivity(intent)
         }
 
     }
@@ -44,7 +46,7 @@ class AdapterFrasi :
 
 class DiffCallBack : DiffUtil.ItemCallback<ResponsesFrasi>() {
     override fun areItemsTheSame(oldItem: ResponsesFrasi, newItem: ResponsesFrasi) =
-        oldItem.frasi == newItem.frasi
+        oldItem.titolo_ricetta == newItem.titolo_ricetta
 
     override fun areContentsTheSame(oldItem: ResponsesFrasi, newItem: ResponsesFrasi) =
         oldItem == newItem

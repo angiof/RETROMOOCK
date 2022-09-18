@@ -54,7 +54,7 @@ class ClientRetro {
 
 interface Calls {
 
-    @GET("https://passy-ca2fc-default-rtdb.europe-west1.firebasedatabase.app/.json/")
+    @GET("https://passy-ca2fc-default-rtdb.europe-west1.firebasedatabase.app/4.json/")
     fun getFrasi(): Call<List<ResponsesFrasi>>
 
 

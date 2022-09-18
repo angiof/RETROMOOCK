@@ -11,8 +11,8 @@ class MainActivity2 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
 
-        var imageView: ImageView = findViewById(R.id.imageView_des)
-        var des: TextView = findViewById(R.id.textView_des)
+        val imageView: ImageView = findViewById(R.id.imageView_des)
+        val des: TextView = findViewById(R.id.textView_des)
 
         des.text = intent.getStringExtra("d")
         Comp.getImg(imageView,intent.getStringExtra("i").toString())

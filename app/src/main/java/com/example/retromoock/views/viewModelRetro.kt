@@ -2,6 +2,7 @@ package com.example.retromoock.views
 
 import android.app.Application
 import android.content.Context
+import android.util.Log
 import android.widget.Toast
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
@@ -30,12 +31,13 @@ class viewModelRetro(application: Application) : AndroidViewModel(application) {
                     response: Response<List<ResponsesFrasi>>
                 ) {
 
-                    lista.value = response.body()
+                    lista.value = response.body().
 
                 }
 
                 override fun onFailure(call: Call<List<ResponsesFrasi>>, t: Throwable) {
-                    Toast.makeText(ctx, t.stackTrace.toString(), Toast.LENGTH_SHORT).show()
+                    Toast.makeText(ctx, t.message, Toast.LENGTH_SHORT).show()
+                    Log.d("mario",t.message.toString())
                 }
 
             })
